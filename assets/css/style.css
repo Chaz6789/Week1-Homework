@@ -41,10 +41,16 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
+
 /* Sets font color and text decoration */
 a {
     color: #ffffff;
     text-decoration: none;
+}
+/* When the cursor hovers over this text the font will chnage */
+a:hover {
+    font-size: 110%;
+    color:gainsboro;
 }
 /* Sets font size */
 p {
