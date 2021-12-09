@@ -64,16 +64,6 @@ a:hover {
     background-size: cover;
     background-position: center;
 }
-/* Floats element to disired position and adds a margin-left */
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-/* Floats element to disired position and adds a margin-right */
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 /* Sets width, display and margin-left */
 .content {
     width: 75%;
@@ -97,6 +87,16 @@ a:hover {
 .articles h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+/* Floats element to disired position and adds a margin-left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* Floats element to disired position and adds a margin-right */
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 /* Adds margin-right, padding, floats elements to disired position, width, height, font type and background color */
 .benefits {
